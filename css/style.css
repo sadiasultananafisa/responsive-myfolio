@@ -37,7 +37,6 @@ nav{
     color: white;
   }
   .about-info{
-    text-align: center;
     padding: 20px 0;
   }
   #about {
@@ -78,4 +77,23 @@ nav{
 .service-title {
     width: 50%;
     text-align: left;
+}
+.work-info{
+    margin: 50px 0;
+    padding: 20px 0;
+}
+#contact{
+    padding: 50px 0;
+}
+.footer-bottom {
+    background-color: #000000;
+}
+.footer-bottom .copyright {
+    height: 70px;
+}
+.footer-bottom p {
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    margin:0 auto;
 }

@@ -22,3 +22,27 @@
       color: white;
     }
   }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .service-content{
+      width: 60%;
+      margin: 0;
+    }
+    .service-image {
+      width: 40%;
+    }
+    .service-content {
+      width: 100%;
+      text-align: center;
+  }
+  }
+  @media (max-width: 767px) {
+    .service-content{
+      width: 100%;
+    }
+    .service-info {
+      width: 100%;
+    }
+    .service-image{
+      visibility: hidden;
+    }
+  }
